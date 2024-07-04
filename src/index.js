@@ -1,13 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Navbar from './Components/Navbar';
+import HeroSection from './Components/HeroSection';
+import InfoSection from './Components/InfoSection';
+import FeatureSection from './Components/FeatureSection';
+import HowItWorks from './Components/HowItWorks';
+import VerificationSection from './Components/VerificationSection'
+import Footer from './Components/Footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Navbar />
+    <HeroSection />
+    <InfoSection />
+    <FeatureSection />
+    <VerificationSection />
+    <HowItWorks />
+    <Footer />
   </React.StrictMode>
 );
 
